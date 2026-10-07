@@ -1,0 +1,10 @@
+langchain
+langchain-core
+langchain-docling
+langchain-huggingface
+langchain-qdrant
+langchain-ollama
+
+sentence-transformers
+qdrant-client
+python-dotenv
