@@ -8,3 +8,25 @@ wheels/
 
 # Virtual environments
 .venv
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# macOS
+.DS_Store
+
+# Local application data
+data/qdrant/
+
+# User documents / research papers
+data/raw/*
+!data/raw/.gitkeep
+
+# IDE
+.vscode/
+.idea/

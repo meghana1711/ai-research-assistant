@@ -1,0 +1,5373 @@
+{
+  "system": "hybrid_plus_reranker",
+  "papers": 281,
+  "evaluated_questions": 892,
+  "skipped_questions": 113,
+  "hit_at_k": {
+    "1": 0.37331838565022424,
+    "3": 0.6502242152466368,
+    "5": 0.7634529147982063,
+    "10": 0.8598654708520179
+  },
+  "recall_at_k": {
+    "1": 0.25675012412680587,
+    "3": 0.49004087877406227,
+    "5": 0.6103778644697927,
+    "10": 0.729816353975547
+  },
+  "mrr_at_10": 0.5349913694924902,
+  "questions": [
+    {
+      "paper_id": "1912.01214",
+      "question": "which multilingual approaches do they compare with?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1912.01214",
+      "question": "what are the pivot-based baselines?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1912.01214",
+      "question": "which datasets did they experiment with?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 8
+    },
+    {
+      "paper_id": "1912.01214",
+      "question": "what language pairs are explored?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1810.08699",
+      "question": "what ner models were evaluated?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1810.08699",
+      "question": "what is the source of the news sentences?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1810.08699",
+      "question": "did they use a crowdsourcing platform for manual annotations?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1609.00425",
+      "question": "what are the topics pulled from Reddit?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1609.00425",
+      "question": "What predictive model do they build?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1801.05147",
+      "question": "What crowdsourcing platform is used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1811.00383",
+      "question": "How do they match words before reordering them?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1811.00383",
+      "question": "On how many language pairs do they show that preordering assisting language sentences helps translation quality?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 7
+    },
+    {
+      "paper_id": "1811.00383",
+      "question": "Which dataset(s) do they experiment with?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1909.09067",
+      "question": "Which information about text structure is included in the corpus?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1909.09067",
+      "question": "Which information about typography is included in the corpus?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1704.06194",
+      "question": "On which benchmarks they achieve the state of the art?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1704.06194",
+      "question": "What they use in their propsoed framework?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1704.06194",
+      "question": "What does KBQA abbreviate for",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1704.06194",
+      "question": "What is te core component for KBQA?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1909.00512",
+      "question": "What experiments are proposed to test that upper layers produce context-specific embeddings?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1909.00512",
+      "question": "How do they calculate a static embedding for each word?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "2003.03106",
+      "question": "What is the performance of BERT on the task?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 10
+    },
+    {
+      "paper_id": "2003.03106",
+      "question": "What are the other algorithms tested?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "2003.03106",
+      "question": "Does BERT reach the best performance among all the algorithms compared?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "2003.03106",
+      "question": "What are the clinical datasets used in the paper?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1708.01464",
+      "question": "how is model compactness measured?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1708.01464",
+      "question": "what was the baseline?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1708.01464",
+      "question": "what evaluation metrics were used?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1708.01464",
+      "question": "what datasets did they use?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2002.03407",
+      "question": "Who were the human evaluators used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2002.03407",
+      "question": "Is the template-based model realistic?  ",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "2002.03407",
+      "question": "Is the student reflection data very different from the newspaper data?  ",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "2002.03407",
+      "question": "What is the recent abstractive summarization method in this paper?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1909.11687",
+      "question": "Why are prior knowledge distillation techniques models are ineffective in producing student models with vocabularies different from the original teacher models?  ",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 9
+    },
+    {
+      "paper_id": "1909.11687",
+      "question": "What state-of-the-art compression techniques were used in the comparison?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1605.06083",
+      "question": "What is the size of the dataset?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1605.06083",
+      "question": "Which methods are considered to find examples of biases and unwarranted inferences??",
+      "gold_evidence_count": 3,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1605.06083",
+      "question": "What biases are found in the dataset?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1804.05918",
+      "question": "What discourse relations does it work best/worst for?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1804.05918",
+      "question": "How much does this model improve state-of-the-art?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1809.04267",
+      "question": "Where is a question generation model used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1901.05287",
+      "question": "Were any of these tasks evaluated in any previous work?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1612.06685",
+      "question": "Do they build a model to automatically detect demographic, lingustic or psycological dimensons of people?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1612.06685",
+      "question": "Which demographic dimensions of people do they obtain?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1612.06685",
+      "question": "How do they obtain psychological dimensions of people?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1912.04961",
+      "question": "What is the baseline?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1912.04961",
+      "question": "Is the data de-identified?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1912.04961",
+      "question": "What embeddings are used?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1910.10781",
+      "question": "What datasets did they use for evaluation?",
+      "gold_evidence_count": 7,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1910.10781",
+      "question": "On top of BERT does the RNN layer work better or the transformer layer?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 7
+    },
+    {
+      "paper_id": "1603.09631",
+      "question": "How was this data collected?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1603.09631",
+      "question": "What is the average length of dialog?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1911.06964",
+      "question": "How are models evaluated in this human-machine communication game?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1911.06964",
+      "question": "How many participants were trying this communication game?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1911.06964",
+      "question": "What user variations have been tested?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1911.06964",
+      "question": "What are the baselines used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2001.02284",
+      "question": "Do they use off-the-shelf NLP systems to build their assitant?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "2001.02284",
+      "question": "How does the IPA label data after interacting with users?",
+      "gold_evidence_count": 6,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "2001.02284",
+      "question": "What kind of repetitive and time-consuming activities does their assistant handle?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "2002.01664",
+      "question": "How was the audio data gathered?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2002.01664",
+      "question": "What is the GhostVLAD approach?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "2002.01664",
+      "question": "Which 7 Indian languages do they experiment with?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1808.09111",
+      "question": "What datasets do they evaluate on?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1808.09111",
+      "question": "Do they evaluate only on English datasets?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1808.09111",
+      "question": "What is the invertibility condition?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1906.08593",
+      "question": "Do they show on which examples how conflict works better than attention?",
+      "gold_evidence_count": 9,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1906.08593",
+      "question": "Which neural architecture do they use as a base for their attention conflict mechanisms?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1906.08593",
+      "question": "On which tasks do they test their conflict method?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1809.00540",
+      "question": "What are the sources of the datasets?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1809.00540",
+      "question": "What metric is used for evaluation?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "2004.03354",
+      "question": "What in-domain text did they use?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1611.04798",
+      "question": "Do they test their framework performance on commonly used language pairs, such as English-to-German?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1611.04798",
+      "question": "Which languages do they test on for the under-resourced scenario?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1912.13337",
+      "question": "Are the automatically constructed datasets subject to quality control?",
+      "gold_evidence_count": 24,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1912.13337",
+      "question": "Do they focus on Reading Comprehension or multiple choice question answering?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1912.13337",
+      "question": "After how many hops does accuracy decrease?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1912.13337",
+      "question": "How do they control for annotation artificats?",
+      "gold_evidence_count": 7,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1912.13337",
+      "question": "Is WordNet useful for taxonomic reasoning for this task?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1809.01541",
+      "question": "How do they perform multilingual training?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1809.01541",
+      "question": "Does the model have attention?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1809.01541",
+      "question": "What architecture does the decoder have?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1809.01541",
+      "question": "What architecture does the encoder have?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1809.01541",
+      "question": "What is MSD prediction?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1809.09194",
+      "question": "Do they use attention?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1809.09194",
+      "question": "What other models do they compare to?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1809.09194",
+      "question": "What is the architecture of the span detector?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1604.05372",
+      "question": "What evaluation metric do they use?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "2002.08795",
+      "question": "What are the results from these proposed strategies?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 8
+    },
+    {
+      "paper_id": "2002.08795",
+      "question": "What are the baselines?",
+      "gold_evidence_count": 6,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2002.08795",
+      "question": "What are the two new strategies?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1802.06024",
+      "question": "How much better than the baseline is LiLi?",
+      "gold_evidence_count": 7,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1802.06024",
+      "question": "What baseline is used in the experiments?",
+      "gold_evidence_count": 6,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1802.06024",
+      "question": "In what way does LiLi imitate how humans acquire knowledge and perform inference during an interactive conversation?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1802.06024",
+      "question": "What metrics are used to establish that this makes chatbots more knowledgeable and better at learning and conversation? ",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1802.06024",
+      "question": "What are the components of the general knowledge learning engine?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1809.00530",
+      "question": "How many labels do the datasets have?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1809.00530",
+      "question": "What is the architecture of the model?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1809.00530",
+      "question": "What are the baseline methods?",
+      "gold_evidence_count": 7,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1809.00530",
+      "question": "What are the source and target domains?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "1710.07960",
+      "question": "Did they use a crowdsourcing platform for annotations?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 10
+    },
+    {
+      "paper_id": "1710.07960",
+      "question": "How do they deal with unknown distribution senses?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1912.03804",
+      "question": "Do they report results only on English data?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1912.03804",
+      "question": "What conclusions do the authors draw from their finding that the emotional appeal of ISIS and Catholic materials are similar?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1912.03804",
+      "question": "How id Depechemood trained?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1912.03804",
+      "question": "How are similarities and differences between the texts from violent and non-violent religious groups analyzed?",
+      "gold_evidence_count": 7,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1912.03804",
+      "question": "How are prominent topics idenified in Dabiq and Rumiyah?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1912.08960",
+      "question": "Are the images from a specific domain?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1912.08960",
+      "question": "Which datasets are used?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1912.08960",
+      "question": "Which existing models are evaluated?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1912.08960",
+      "question": "How is diversity measured?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2002.11910",
+      "question": "What state-of-the-art deep neural network is used?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2002.11910",
+      "question": "What boundary assembling method is used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "2002.11910",
+      "question": "What are previous state of the art results?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1909.09587",
+      "question": "What is the model performance on target language reading comprehension?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 9
+    },
+    {
+      "paper_id": "1909.09587",
+      "question": "What source-target language pairs were used in this work? ",
+      "gold_evidence_count": 3,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1909.09587",
+      "question": "What model is used as a baseline?  ",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1909.09587",
+      "question": "what does the model learn in zero-shot setting?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 10
+    },
+    {
+      "paper_id": "1802.07862",
+      "question": "Do they inspect their model to see if their model learned to associate image parts with words related to entities?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1802.07862",
+      "question": "Does their NER model learn NER from both text and images?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1802.07862",
+      "question": "Which types of named entities do they recognize?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "1802.07862",
+      "question": "Can named entities in SnapCaptions be discontigious?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1802.07862",
+      "question": "How large is their MNER SnapCaptions dataset?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "2004.01853",
+      "question": "What is masked document generation?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "2004.01853",
+      "question": "Which of the three pretraining tasks is the most helpful?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1710.03348",
+      "question": "What useful information does attention capture?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1710.03348",
+      "question": "What datasets are used?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1710.03348",
+      "question": "In what cases is attention different from alignment?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1612.03226",
+      "question": "How do they calculate variance from the model outputs?",
+      "gold_evidence_count": 7,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1612.03226",
+      "question": "How much data samples do they start with before obtaining the initial model labels?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1612.03226",
+      "question": "Which model do they use for end-to-end speech recognition?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1612.03226",
+      "question": "Which dataset do they use?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1809.02286",
+      "question": "Which baselines did they compare against?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1809.01202",
+      "question": "What baselines did they consider?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1809.01202",
+      "question": "What types of social media did they consider?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1909.02027",
+      "question": "How was the dataset annotated?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "1909.02027",
+      "question": "Which classifiers are evaluated?",
+      "gold_evidence_count": 7,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1909.02027",
+      "question": "What is the size of this dataset?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1909.02027",
+      "question": "Where does the data come from?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1911.02855",
+      "question": "What are method improvements of F1 for paraphrase identification?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1911.02855",
+      "question": "What are method's improvements of F1 for NER task for English and Chinese datasets?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1911.02855",
+      "question": "What are method's improvements of F1 w.r.t. baseline BERT tagger for Chinese POS datasets?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1911.02855",
+      "question": "How are weights dynamically adjusted?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1906.01081",
+      "question": "Ngrams of which length are aligned using PARENT?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1906.01081",
+      "question": "How many people participated in their evaluation study of table-to-text models?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1906.01081",
+      "question": "By how much more does PARENT correlate with human judgements in comparison to other text generation metrics?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "1611.01576",
+      "question": "What languages pairs are used in machine translation?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1611.01576",
+      "question": "What sentiment classification dataset is used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1611.01576",
+      "question": "What pooling function is used?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1904.09535",
+      "question": "Do they report results only on English?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1904.09535",
+      "question": "What neural network modules are included in NeuronBlocks?",
+      "gold_evidence_count": 6,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1904.09535",
+      "question": "How do the authors evidence the claim that many engineers find it a big overhead to choose from multiple frameworks, models and optimization techniques?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1911.03059",
+      "question": "what datasets did they use?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1911.03059",
+      "question": "what ml based approaches were compared?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1706.08198",
+      "question": "Is pre-training effective in their evaluation?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1706.08198",
+      "question": "What parallel corpus did they use?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1909.08089",
+      "question": "How much does their model outperform existing models?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1909.08089",
+      "question": "What do they mean by global and local context?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1910.09982",
+      "question": "What are the 18 propaganda techniques?",
+      "gold_evidence_count": 37,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1910.09982",
+      "question": "What dataset was used?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1910.09982",
+      "question": "What was the baseline for this task?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1609.00559",
+      "question": "What is a second order co-ocurrence matrix?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1609.00559",
+      "question": "How many humans participated?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1609.00559",
+      "question": "What embedding techniques are explored in the paper?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1604.00727",
+      "question": "Do the authors also try the model on other datasets?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1604.00727",
+      "question": "What word level and character level model baselines are used?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1612.02482",
+      "question": "How were the human judgements assembled?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1608.01084",
+      "question": "Did they only experiment with one language pair?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 8
+    },
+    {
+      "paper_id": "1904.10503",
+      "question": "Which other approaches do they compare their model with?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1904.10503",
+      "question": "What results do they achieve using their proposed approach?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1904.10503",
+      "question": "How do they combine a deep learning model with a knowledge base?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1912.01772",
+      "question": "What are the models used for the baseline of the three NLP tasks?",
+      "gold_evidence_count": 6,
+      "first_correct_rank": 8
+    },
+    {
+      "paper_id": "1912.01772",
+      "question": "How is non-standard pronunciation identified?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1603.01987",
+      "question": "Is it valid to presume a bad medical wikipedia article should not contain much domain-specific jargon?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1908.06941",
+      "question": "What novel PMI variants are introduced?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.06941",
+      "question": "What semantic and syntactic tasks are used as probes?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1908.06941",
+      "question": "What are the disadvantages to clipping negative PMI?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1908.06941",
+      "question": "Why are statistics from finite corpora unreliable?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1702.03856",
+      "question": "what is the domain of the corpus?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1702.03856",
+      "question": "what challenges are identified?",
+      "gold_evidence_count": 9,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1702.03856",
+      "question": "what is the size of the speech corpus?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1904.01548",
+      "question": "Which two pairs of ERPs from the literature benefit from joint training?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1904.01548",
+      "question": "What datasets are used?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1606.03676",
+      "question": "which datasets did they experiment with?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 7
+    },
+    {
+      "paper_id": "1606.03676",
+      "question": "which languages are explored?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1802.00396",
+      "question": "Which dataset do they use?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1911.03343",
+      "question": "How did they extend LAMA evaluation framework to focus on negation?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1712.00991",
+      "question": "What summarization algorithms did the authors experiment with?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1712.00991",
+      "question": "What evaluation metrics were used for the summarization task?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1712.00991",
+      "question": "What clustering algorithms were used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1712.00991",
+      "question": "What evaluation metrics are looked at for classification tasks?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 7
+    },
+    {
+      "paper_id": "1712.00991",
+      "question": "What methods were used for sentence classification?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1712.00991",
+      "question": "What is the average length of the sentences?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1712.00991",
+      "question": "What is the size of the real-life dataset?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1805.08241",
+      "question": "What are the language pairs explored in this paper?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1907.04433",
+      "question": "Do they experiment with the toolkits?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "2003.04642",
+      "question": "Have they made any attempt to correct MRC gold standards according to their findings? ",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "2003.04642",
+      "question": "What features are absent from MRC gold standards that can result in potential lexical ambiguity?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2003.04642",
+      "question": "What modern MRC gold standards are analyzed?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "2003.04642",
+      "question": "How does proposed qualitative annotation schema looks like?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "2001.09215",
+      "question": "How many tweets were collected?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "2001.09215",
+      "question": "What language is explored in this paper?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 9
+    },
+    {
+      "paper_id": "1909.07575",
+      "question": "What are the baselines?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1909.07575",
+      "question": "What is the attention module pretrained on?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 8
+    },
+    {
+      "paper_id": "1701.04056",
+      "question": "How long of dialog history is captured?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1904.07904",
+      "question": "What evaluation metrics were used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1904.07904",
+      "question": "What was the score of the proposed model?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1904.07904",
+      "question": "What was the previous best model?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1904.07904",
+      "question": "Which datasets did they use for evaluation?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "2003.11645",
+      "question": "What hyperparameters are explored?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2003.11645",
+      "question": "What Named Entity Recognition dataset is used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "2003.11645",
+      "question": "What sentiment analysis dataset is used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2003.11645",
+      "question": "Do they test both skipgram and c-bow?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1909.02304",
+      "question": "What is the state-of-the-art model for the task?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1909.02304",
+      "question": "What is the strong baseline?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1604.03114",
+      "question": "what aspects of conversation flow do they look at?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1604.03114",
+      "question": "what debates dataset was used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1608.06757",
+      "question": "what standard dataset were used?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2001.03131",
+      "question": "What is the Random Kitchen Sink approach?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1606.02891",
+      "question": "what are the baseline systems?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1803.09123",
+      "question": "What word embeddings do they test?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1803.09123",
+      "question": "How do they define similar equations?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1910.01863",
+      "question": "What evaluation criteria and metrics were used to evaluate the generated text?",
+      "gold_evidence_count": 6,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1701.08229",
+      "question": "Do they evaluate only on English datasets?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1701.08229",
+      "question": "What are the three steps to feature elimination?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1701.08229",
+      "question": "How is the dataset annotated?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1701.08229",
+      "question": "What dataset is used for this study?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1912.06262",
+      "question": "what were their performance results?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "1912.06262",
+      "question": "where did they obtain the annotated clinical notes from?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1709.07814",
+      "question": "Which architecture do they use for the encoder and decoder?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1709.07814",
+      "question": "How does their decoder generate text?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 7
+    },
+    {
+      "paper_id": "1709.07814",
+      "question": "Which dataset do they use?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1806.00738",
+      "question": "What model is used to encode the images?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1806.00738",
+      "question": "How is the sequential nature of the story captured?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1806.00738",
+      "question": "Is the position in the sequence part of the input?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1806.00738",
+      "question": "Do the decoder LSTMs all have the same weights?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1811.00147",
+      "question": "Is fine-tuning required to incorporate these embeddings into existing models?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1811.00147",
+      "question": "How are meaningful chains in the graph selected?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1610.09225",
+      "question": "Do they remove seasonality from the time series?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 7
+    },
+    {
+      "paper_id": "1610.09225",
+      "question": "What is the dimension of the embeddings?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1610.09225",
+      "question": "What dataset is used to train the model?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 9
+    },
+    {
+      "paper_id": "2003.08380",
+      "question": "What is the previous state of the art?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1811.05711",
+      "question": "Which text embedding methodologies are used?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 10
+    },
+    {
+      "paper_id": "1805.04508",
+      "question": "Which race and gender are given higher sentiment intensity predictions?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1805.04508",
+      "question": "What criteria are used to select the 8,640 English sentences?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1904.03288",
+      "question": "what were the baselines?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1904.03288",
+      "question": "what competitive results did they obtain?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1909.13714",
+      "question": "By how much is performance improved with multimodality?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1909.13714",
+      "question": "Is collected multimodal in cabin dataset public?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1910.05603",
+      "question": "Is the model tested against any baseline?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1910.05603",
+      "question": "What is the language model combination technique used in the paper?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1910.05603",
+      "question": "What are the deep learning architectures used in the task?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 9
+    },
+    {
+      "paper_id": "1909.03405",
+      "question": "How much is performance improved on NLI?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1909.03405",
+      "question": "Do they train their model starting from a checkpoint?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1909.03405",
+      "question": "What BERT model do they test?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1801.07887",
+      "question": "What downstream tasks are evaluated?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1801.07887",
+      "question": "What is active learning?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1907.03060",
+      "question": "what was the baseline?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "2002.04095",
+      "question": "How is segmentation quality evaluated?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1710.04203",
+      "question": "How do they compare lexicons?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1911.10049",
+      "question": "How larger are the training sets of these versions of ELMo compared to the previous ones?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1812.06864",
+      "question": "what is the state of the art on WSJ?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1911.01371",
+      "question": "How did they obtain the OSG dataset?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1911.01371",
+      "question": "How large is the Twitter dataset?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1811.12254",
+      "question": "what is the size of the augmented dataset?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "1909.09551",
+      "question": "How they utilize LDA and Gibbs sampling to evaluate ISWC and WWW publications?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1701.02962",
+      "question": "What dataset do they use to evaluate their method?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1806.05504",
+      "question": "Why are current ELS's not sufficiently effective?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.05828",
+      "question": "What is the best model?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1908.05828",
+      "question": "How many sentences does the dataset contain?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.05828",
+      "question": "What is the baseline?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1908.05828",
+      "question": "Which machine learning models do they explore?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 7
+    },
+    {
+      "paper_id": "1908.05828",
+      "question": "What is the size of the dataset?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "1908.05828",
+      "question": "What is the source of their dataset?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1908.05828",
+      "question": "How many different types of entities exist in the dataset?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.05828",
+      "question": "How big is the new Nepali NER dataset?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1908.05828",
+      "question": "What is the performance improvement of the grapheme-level representation model over the character-level model?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1908.05828",
+      "question": "Which models are used to solve NER for Nepali?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1909.13104",
+      "question": "What language(s) is/are represented in the dataset?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1909.13104",
+      "question": "What baseline model is used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1909.13104",
+      "question": "Which variation provides the best results on this dataset?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1909.13104",
+      "question": "What are the different variations of the attention-based approach which are examined?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1909.13104",
+      "question": "What dataset is used for this work?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1909.13104",
+      "question": "What types of online harassment are studied?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1909.13104",
+      "question": "What was the baseline?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1909.13104",
+      "question": "What were the datasets used in this paper?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2002.02070",
+      "question": "Is car-speak language collection of abstract features that classifier is later trained on?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2002.02070",
+      "question": "Is order of \"words\" important in car speak language?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "2002.02070",
+      "question": "What are labels in car speak language dataset?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2002.02070",
+      "question": "How big is dataset of car-speak language?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "2002.02070",
+      "question": "What is the performance of classifiers?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "2002.02070",
+      "question": "What classifiers have been trained?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "2002.02070",
+      "question": "How does car speak pertains to a car's physical attributes?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1611.03599",
+      "question": "What topic is covered in the Chinese Facebook data? ",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1611.03599",
+      "question": "How many layers does the UTCNN model have?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1611.03599",
+      "question": "What topics are included in the debate data?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1611.03599",
+      "question": "What is the size of the Chinese data?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1611.03599",
+      "question": "Did they collected the two datasets?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1611.03599",
+      "question": "What are the baselines?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.10084",
+      "question": "What transfer learning tasks are evaluated?",
+      "gold_evidence_count": 10,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1908.10084",
+      "question": "What metrics are used for the STS tasks?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1908.10084",
+      "question": "How much time takes its training?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.10084",
+      "question": "How are the siamese networks trained?",
+      "gold_evidence_count": 8,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1908.10084",
+      "question": "What other sentence embeddings methods are evaluated?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1707.06806",
+      "question": "Which pretrained word vectors did they use?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1707.06806",
+      "question": "What evaluation metrics are used?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1707.06806",
+      "question": "Which shallow approaches did they experiment with?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1707.06806",
+      "question": "Where do they obtain the news videos from?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1707.06806",
+      "question": "What is the source of the news articles?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1806.04511",
+      "question": "which non-english language had the best performance?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1806.04511",
+      "question": "which non-english language was the had the worst results?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1806.04511",
+      "question": "what datasets were used in evaluation?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1806.04511",
+      "question": "what are the baselines?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1806.04511",
+      "question": "how did the authors translate the reviews to other languages?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1806.04511",
+      "question": "what dataset was used for training?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1904.04358",
+      "question": "How do they demonstrate that this type of EEG has discriminative information about the intended articulatory movements responsible for speech?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1904.04358",
+      "question": "What are the five different binary classification tasks?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1904.04358",
+      "question": "How was the spatial aspect of the EEG signal computed?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1904.04358",
+      "question": "What data was presented to the subjects to elicit event-related responses?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1904.04358",
+      "question": "How many electrodes were used on the subject in EEG sessions?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1904.04358",
+      "question": "How many subjects does the EEG data come from?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1912.00667",
+      "question": "Do they report results only on English data?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1912.00667",
+      "question": "What type of classifiers are used?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 10
+    },
+    {
+      "paper_id": "1912.00667",
+      "question": "Which real-world datasets are used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1912.00667",
+      "question": "How are the interpretability merits of the approach demonstrated?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1912.00667",
+      "question": "How are the accuracy merits of the approach demonstrated?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1912.00667",
+      "question": "How is the keyword specific expectation elicited from the crowd?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 8
+    },
+    {
+      "paper_id": "1912.08904",
+      "question": "What functionality does Macaw provide?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1912.08904",
+      "question": "What is a wizard of oz setup?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1912.08904",
+      "question": "What interface does Macaw currently have?",
+      "gold_evidence_count": 6,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1912.08904",
+      "question": "What modalities are supported by Macaw?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1912.08904",
+      "question": "What are the different modules in Macaw?",
+      "gold_evidence_count": 7,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1703.10344",
+      "question": "Do they report results only on English data?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1703.10344",
+      "question": "What baseline model is used?",
+      "gold_evidence_count": 8,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1703.10344",
+      "question": "What news article sources are used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "1703.10344",
+      "question": "How do they determine the exact section to use the input article?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1703.10344",
+      "question": "What features are used to represent the novelty of news articles to entity pages?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1703.10344",
+      "question": "What features are used to represent the salience and relative authority of entities?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "2003.13032",
+      "question": "What baselines do they introduce?",
+      "gold_evidence_count": 8,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "2003.13032",
+      "question": "How large is the corpus?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2003.13032",
+      "question": "How was annotation performed?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2003.13032",
+      "question": "How many documents are in the new corpus?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2003.13032",
+      "question": "What baseline systems are proposed?",
+      "gold_evidence_count": 8,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1910.06592",
+      "question": "How did they obtain the dataset?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1910.06592",
+      "question": "What activation function do they use in their model?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1910.06592",
+      "question": "What baselines do they compare to?",
+      "gold_evidence_count": 8,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1910.06592",
+      "question": "How are chunks defined?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1910.06592",
+      "question": "What features are extracted?",
+      "gold_evidence_count": 7,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1910.06592",
+      "question": "Was the approach used in this work to detect fake news fully supervised?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1910.06592",
+      "question": "Based on this paper, what is the more predictive set of features to detect fake news?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 7
+    },
+    {
+      "paper_id": "1910.06592",
+      "question": "How big is the dataset used in this work?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1910.06592",
+      "question": "How is a \"chunk of posts\" defined in this work?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1910.06592",
+      "question": "What baselines were used in this work?",
+      "gold_evidence_count": 8,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1706.01678",
+      "question": "Which evaluation methods are used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1706.01678",
+      "question": "What dataset is used in this paper?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1706.01678",
+      "question": "Which other methods do they compare with?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1706.01678",
+      "question": "How are sentences selected from the summary graph?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1902.09666",
+      "question": "What models are used in the experiment?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1902.09666",
+      "question": "What are the differences between this dataset and pre-existing ones?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1902.09666",
+      "question": "In what language are the tweets?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1902.09666",
+      "question": "What is the size of the new dataset?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1902.09666",
+      "question": "What kinds of offensive content are explored?",
+      "gold_evidence_count": 9,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1902.09666",
+      "question": "What is the best performing model?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1902.09666",
+      "question": "How many annotators participated?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1902.09666",
+      "question": "What is the definition of offensive language?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 8
+    },
+    {
+      "paper_id": "1902.09666",
+      "question": "What are the three layers of the annotation scheme?",
+      "gold_evidence_count": 7,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1902.09666",
+      "question": "How long is the dataset for each step of hierarchy?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1604.00400",
+      "question": "Do the authors report results only on English data?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1604.00400",
+      "question": "In the proposed metric, how is content relevance measured?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1604.00400",
+      "question": "What different correlations result when using different variants of ROUGE scores?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1604.00400",
+      "question": "What manual Pyramid scores are used?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1604.00400",
+      "question": "What is the common belief that this paper refutes? (c.f. 'contrary to the common belief, ROUGE is not much [sic] reliable'",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1905.12801",
+      "question": "which existing strategies are compared?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1905.12801",
+      "question": "what dataset was used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1905.12801",
+      "question": "what kinds of male and female words are looked at?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1905.12801",
+      "question": "how is mitigation of gender bias evaluated?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1905.12801",
+      "question": "what bias evaluation metrics are used?",
+      "gold_evidence_count": 9,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1810.12196",
+      "question": "What kind of questions are present in the dataset?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 10
+    },
+    {
+      "paper_id": "1810.12196",
+      "question": "What baselines are presented?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1810.12196",
+      "question": "What tasks were evaluated?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1810.12196",
+      "question": "What language are the reviews in?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1810.12196",
+      "question": "Where are the hotel reviews from?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1707.05236",
+      "question": "What was the baseline used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1707.05236",
+      "question": "What are their results on both datasets?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1707.05236",
+      "question": "What textual patterns are extracted?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1707.05236",
+      "question": "Which annotated corpus did they use?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 8
+    },
+    {
+      "paper_id": "1707.05236",
+      "question": "Which languages are explored in this paper?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 7
+    },
+    {
+      "paper_id": "1810.04428",
+      "question": "what language does this paper focus on?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1810.04428",
+      "question": "what evaluation metrics did they use?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1810.04428",
+      "question": "by how much did their model improve?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1810.04428",
+      "question": "what state of the art methods did they compare with?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1810.04428",
+      "question": "what are the sizes of both datasets?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "2004.02192",
+      "question": "What are the distinctive characteristics of how Arabic speakers use offensive language?",
+      "gold_evidence_count": 9,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "2004.02192",
+      "question": "How did they analyze which topics, dialects and gender are most associated with tweets?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2004.02192",
+      "question": "How many annotators tagged each tweet?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "2004.02192",
+      "question": "How many tweets are in the dataset?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 7
+    },
+    {
+      "paper_id": "2004.02192",
+      "question": "In what way is the offensive dataset not biased by topic, dialect or target?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1909.06200",
+      "question": "What experiments are conducted?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1909.06200",
+      "question": "What is the combination of rewards for reinforcement learning?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1909.06200",
+      "question": "What are the difficulties in modelling the ironic pattern?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1909.06200",
+      "question": "How did the authors find ironic data on twitter?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1909.06200",
+      "question": "Who judged the irony accuracy, sentiment preservation and content preservation?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1706.06894",
+      "question": "How were the tweets annotated?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1706.06894",
+      "question": "Which SVM approach resulted in the best performance?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1706.06894",
+      "question": "What are hashtag features?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1706.06894",
+      "question": "How many tweets did they collect?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1706.06894",
+      "question": "Which sports clubs are the targets?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.11047",
+      "question": "Does this method help in sentiment classification task improvement?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.11047",
+      "question": "For how many probe tasks the shallow-syntax-aware contextual embedding perform better than ELMo\u2019s embedding?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1908.11047",
+      "question": "What are the black-box probes used?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.11047",
+      "question": "What are improvements for these two approaches relative to ELMo-only baselines?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1908.11047",
+      "question": "Which syntactic features are obtained automatically on downstream task data?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.09246",
+      "question": "What baseline approaches does this approach out-perform?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1908.09246",
+      "question": "What datasets are used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.09246",
+      "question": "What alternative to Gibbs sampling is used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.09246",
+      "question": "How does this model overcome the assumption that all words in a document are generated from a single event?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1612.08205",
+      "question": "How many users do they look at?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1612.08205",
+      "question": "What do they mean by a person's industry?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1612.08205",
+      "question": "What model did they use for their system?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1612.08205",
+      "question": "What social media platform did they look at?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 9
+    },
+    {
+      "paper_id": "1907.09369",
+      "question": "What are the hyperparameters of the bi-GRU?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1907.09369",
+      "question": "What baseline is used?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1907.09369",
+      "question": "What data is used in experiments?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1907.09369",
+      "question": "What meaningful information does the GRU model capture, which traditional ML models do not?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1911.07555",
+      "question": "What is the approach of previous work?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1911.07555",
+      "question": "Is the lexicon the same for all languages?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1911.07555",
+      "question": "How do they obtain the lexicon?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1911.07555",
+      "question": "What evaluation metric is used?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 7
+    },
+    {
+      "paper_id": "1911.07555",
+      "question": "Which languages are similar to each other?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1911.07555",
+      "question": "Which datasets are employed for South African languages LID?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1911.07555",
+      "question": "Does the paper report the performance of a baseline model on South African languages LID?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1911.07555",
+      "question": "Does the algorithm improve on the state-of-the-art methods?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1503.00841",
+      "question": "What background knowledge do they leverage?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1503.00841",
+      "question": "What are the three regularization terms?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1503.00841",
+      "question": "What NLP tasks do they consider?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 7
+    },
+    {
+      "paper_id": "1503.00841",
+      "question": "How do they define robustness of a model?",
+      "gold_evidence_count": 6,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1804.11346",
+      "question": "Are the annotations automatic or manually created?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1804.11346",
+      "question": "How long are the essays on average?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1611.08661",
+      "question": "What neural models are used to encode the text?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1611.08661",
+      "question": "What baselines are used for comparison?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1611.08661",
+      "question": "What datasets are used to evaluate this paper?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1910.07601",
+      "question": "Which approach out of two proposed in the paper performed better in experiments?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1910.07601",
+      "question": "What classification baselines are used for comparison?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1910.07601",
+      "question": "What TIMIT datasets are used for testing?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1909.00175",
+      "question": "What datasets are used in evaluation?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1909.00175",
+      "question": "What is the tagging scheme employed?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1910.06036",
+      "question": "How they extract \"structured answer-relevant relation\"?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1910.06036",
+      "question": "How big are significant improvements?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1910.06036",
+      "question": "What metrics do they use?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1910.06036",
+      "question": "On what datasets are experiments performed?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2002.01984",
+      "question": "What was the baseline model?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "2002.01984",
+      "question": "What dataset did they use?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2002.01984",
+      "question": "What was their highest recall score?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2002.01984",
+      "question": "What was their highest MRR score?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "1909.00326",
+      "question": "How do they measure which words are under-translated by NMT models?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1909.00326",
+      "question": "How do their models decide how much improtance to give to the output words?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1909.00326",
+      "question": "Which model architectures do they test their word importance approach on?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 8
+    },
+    {
+      "paper_id": "1910.14599",
+      "question": "What are the weaknesses found by non-expert annotators of current state-of-the-art NLI models?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1910.14599",
+      "question": "What data sources do they use for creating their dataset?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1910.14599",
+      "question": "Do they use active learning to create their dataset?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1906.00790",
+      "question": "Do the hashtag and SemEval datasets contain only English data?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1906.00790",
+      "question": "What current state of the art method was used for comparison?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1906.00790",
+      "question": "What set of approaches to hashtag segmentation are proposed?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1906.00790",
+      "question": "How is the dataset of hashtags sourced?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1903.03530",
+      "question": "How big is their created dataset?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1903.03530",
+      "question": "Which data do they use as a starting point for the dialogue dataset?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1903.03530",
+      "question": "What labels do they create on their dataset?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1903.03530",
+      "question": "How do they select instances to their hold-out test set?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1712.05608",
+      "question": "Which models/frameworks do they compare to?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1712.05608",
+      "question": "Which classification algorithm do they use for s2sL?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1712.05608",
+      "question": "Up to how many samples do they experiment with?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1809.03449",
+      "question": "Do they report results only on English datasets?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1809.03449",
+      "question": "How do the authors examine whether a model is robust to noise or not?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1809.03449",
+      "question": "What type of model is KAR?",
+      "gold_evidence_count": 6,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1809.03449",
+      "question": "Do the authors hypothesize that humans' robustness to noise is due to their general knowledge?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1806.05513",
+      "question": "What type of system does the baseline classification use?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1806.05513",
+      "question": "What experiments were carried out on the corpus?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1806.05513",
+      "question": "How many annotators tagged each text?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1806.05513",
+      "question": "Where did the texts in the corpus come from?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1903.09722",
+      "question": "What is the previous state-of-the-art in summarization?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1903.09722",
+      "question": "What dataset do they use?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1903.09722",
+      "question": "What other models do they compare to?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1903.09722",
+      "question": "What language model architectures are used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1806.11432",
+      "question": "What are the user-defined keywords?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1806.11432",
+      "question": "Does the method achieve sota performance on this dataset?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1806.11432",
+      "question": "What is the size of the Airbnb?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1910.14537",
+      "question": "How better is performance compared to previous state-of-the-art models?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1910.14537",
+      "question": "How does Gaussian-masked directional multi-head attention works?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1910.14537",
+      "question": "What is meant by closed test setting?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1910.14537",
+      "question": "What are strong baselines model is compared to?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1808.10245",
+      "question": "Does the dataset feature only English language data?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1808.10245",
+      "question": "What additional features and context are proposed?",
+      "gold_evidence_count": 9,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1808.10245",
+      "question": "What learning models are used on the dataset?",
+      "gold_evidence_count": 12,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1808.10245",
+      "question": "What examples of the difficulties presented by the context-dependent nature of online aggression do they authors give?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1910.12574",
+      "question": "Do they report results only on English data?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1910.12574",
+      "question": "What evidence do the authors present that the model can capture some biases in data annotation and collection?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1910.12574",
+      "question": "Which publicly available datasets are used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1910.12574",
+      "question": "What baseline is used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1910.12574",
+      "question": "What new fine-tuning methods are presented?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1910.12574",
+      "question": "What are the existing biases?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1910.12574",
+      "question": "What biases does their model capture?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1910.12574",
+      "question": "What existing approaches do they compare to?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1702.03342",
+      "question": "What is the benchmark dataset?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1702.03342",
+      "question": "What are the two neural embedding models?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1702.03342",
+      "question": "which neural embedding model works better?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1805.03710",
+      "question": "How do they evaluate their resulting word embeddings?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1805.03710",
+      "question": "What types of subwords do they incorporate in their model?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1805.03710",
+      "question": "Which matrix factorization methods do they use?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1807.07279",
+      "question": "Do they report results only on English data?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1807.07279",
+      "question": "What experiments do they use to quantify the extent of interpretability?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1807.07279",
+      "question": "Along which dimension do the semantically related words take larger values?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "1807.07279",
+      "question": "What is the additive modification to the objective function?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1706.09673",
+      "question": "Which dataset do they use?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1706.09673",
+      "question": "How do they encourage understanding of literature as part of their objective function?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1906.07662",
+      "question": "What are the limitations of existing Vietnamese word segmentation systems?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1906.07662",
+      "question": "Why challenges does word segmentation in Vietnamese pose?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1906.07662",
+      "question": "How successful are the approaches used to solve word segmentation in Vietnamese?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1906.07662",
+      "question": "Which approaches have been applied to solve word segmentation in Vietnamese?",
+      "gold_evidence_count": 6,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "2002.12612",
+      "question": "Which two news domains are country-independent?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2002.12612",
+      "question": "How is the political bias of different sources included in the model?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2002.12612",
+      "question": "What are the two large-scale datasets used?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 9
+    },
+    {
+      "paper_id": "2002.12612",
+      "question": "What are the global network features which quantify different aspects of the sharing process?",
+      "gold_evidence_count": 10,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1908.05441",
+      "question": "Which datasets are used for evaluation?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1908.05441",
+      "question": "What previous methods is their model compared to?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1908.05441",
+      "question": "How was the dataset collected?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1811.08603",
+      "question": "Which datasets do they use?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1811.08603",
+      "question": "How effective is their NCEL approach overall?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1811.08603",
+      "question": "How do they verify generalization ability?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1811.08603",
+      "question": "Do they only use adjacent entity mentions or use more than that in some cases (next to adjacent)?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 7
+    },
+    {
+      "paper_id": "1909.03135",
+      "question": "Do the authors mention any downside of lemmatizing input before training ELMo?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 8
+    },
+    {
+      "paper_id": "1909.03135",
+      "question": "What other examples of morphologically-rich languages do the authors give?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1909.03135",
+      "question": "Why is lemmatization not necessary in English?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1909.03135",
+      "question": "How big was the corpora they trained ELMo on?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1804.07789",
+      "question": "What metrics are used for evaluation?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1804.07789",
+      "question": "Do they use pretrained embeddings?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1804.07789",
+      "question": "What dataset is used?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1804.07789",
+      "question": "What is a bifocal attention mechanism?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1905.11268",
+      "question": "What does the \"sensitivity\" quantity denote?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1905.11268",
+      "question": "What end tasks do they evaluate on?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1905.11268",
+      "question": "What is a semicharacter architecture?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1905.11268",
+      "question": "Why is the adversarial setting appropriate for misspelling recognition?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1905.11268",
+      "question": "How do the backoff strategies work?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1603.01514",
+      "question": "What baseline model is used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1603.01514",
+      "question": "Which additional latent variables are used in the model?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1603.01514",
+      "question": "Which parallel corpora are used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1603.01514",
+      "question": "Overall, does having parallel data improve semantic role induction across multiple languages?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1603.01514",
+      "question": "Do they add one latent variable for each language pair in their Bayesian model?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1603.01514",
+      "question": "What does an individual model consist of?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1603.01514",
+      "question": "Do they improve on state-of-the-art semantic role induction?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1908.04042",
+      "question": "how many tags do they look at?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1908.04042",
+      "question": "which algorithm was the highest performer?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.04042",
+      "question": "how is diversity measured?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.04042",
+      "question": "how large is the vocabulary?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.04042",
+      "question": "what dataset was used?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.04042",
+      "question": "what algorithms did they use?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1610.00956",
+      "question": "How does their ensemble method work?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1610.00956",
+      "question": "How large are the improvements of the Attention-Sum Reader model when using the BookTest dataset?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1610.00956",
+      "question": "How do they show there is space for further improvement?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1601.02403",
+      "question": "Do they report results only on English data?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1601.02403",
+      "question": "What argument components do the ML methods aim to identify?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1601.02403",
+      "question": "Which machine learning methods are used in experiments?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1601.02403",
+      "question": "How is the data in the new corpus come sourced?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1601.02403",
+      "question": "What challenges do different registers and domains pose to this task?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1912.03627",
+      "question": "how was the speech collected?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1912.03627",
+      "question": "what evaluation protocols are provided?",
+      "gold_evidence_count": 6,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1912.03627",
+      "question": "what is the source of the data?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1810.12085",
+      "question": "what topics did they label?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1810.12085",
+      "question": "did they compare with other extractive summarization methods?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1810.12085",
+      "question": "what datasets were used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1610.07809",
+      "question": "what levels of document preprocessing are looked at?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1610.07809",
+      "question": "what keyphrase extraction models were reassessed?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 9
+    },
+    {
+      "paper_id": "1610.07809",
+      "question": "how many articles are in the dataset?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2003.03044",
+      "question": "Is this dataset publicly available for commercial use?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "2003.03044",
+      "question": "How many different phenotypes are present in the dataset?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2003.03044",
+      "question": "What are 10 other phenotypes that are annotated?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1610.08815",
+      "question": "What are the state of the art models?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1610.08815",
+      "question": "Which benchmark datasets are used?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1610.08815",
+      "question": "What are the network's baseline features?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1909.00015",
+      "question": "What tasks are used for evaluation?",
+      "gold_evidence_count": 8,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1909.00015",
+      "question": "HOw does the method perform compared with baselines?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "1909.00015",
+      "question": "How does their model improve interpretability compared to softmax transformers?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "2001.01269",
+      "question": "What baseline method is used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "2001.01269",
+      "question": "What details are given about the Twitter dataset?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2001.01269",
+      "question": "What details are given about the movie domain dataset?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "2001.01269",
+      "question": "Which hand-crafted features are combined with word2vec?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 9
+    },
+    {
+      "paper_id": "2001.01269",
+      "question": "What word-based and dictionary-based feature are used?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 8
+    },
+    {
+      "paper_id": "2001.01269",
+      "question": "How are the supervised scores of the words calculated?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 7
+    },
+    {
+      "paper_id": "1708.06185",
+      "question": "what dataset was used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1708.06185",
+      "question": "how many total combined features were there?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1708.06185",
+      "question": "what pretrained word embeddings were used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1705.01214",
+      "question": "What evaluation metrics did look at?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1705.01214",
+      "question": "What datasets are used?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1705.01214",
+      "question": "What is the state of the art described in the paper?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1908.07195",
+      "question": "What GAN models were used as baselines to compare against?",
+      "gold_evidence_count": 9,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2001.07786",
+      "question": "What is the corpus used for the task?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2001.07786",
+      "question": "How is evaluation performed?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1912.00903",
+      "question": "What is a normal reading paradigm?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1912.00903",
+      "question": "What kind of sentences were read?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1903.11437",
+      "question": "why are their techniques cheaper to implement?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1903.11437",
+      "question": "what data simulation techniques were introduced?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1903.11437",
+      "question": "what is their explanation for the effectiveness of back-translation?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1903.11437",
+      "question": "what dataset is used?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1903.11437",
+      "question": "what language pairs are explored?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1903.11437",
+      "question": "what language is the data in?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1703.04001",
+      "question": "Does the experiments focus on a specific domain?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 10
+    },
+    {
+      "paper_id": "1909.10012",
+      "question": "What profile metadata is used for this analysis?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1909.10012",
+      "question": "What are the organic and inorganic ways to show political affiliation through profile changes?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1909.10012",
+      "question": "How do profile changes vary for influential leads and their followers over the social movement?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1907.06292",
+      "question": "What evaluation metrics do they use?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1907.06292",
+      "question": "What is the size of this dataset?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1907.06292",
+      "question": "How do they determine if tweets have been used by journalists?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1703.07090",
+      "question": "how small of a dataset did they train on?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1703.07090",
+      "question": "which lstm models did they compare with?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1810.04635",
+      "question": "Do they use datasets with transcribed text or do they determine text from the audio?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1810.04635",
+      "question": "By how much does their model outperform the state of the art results?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1810.04635",
+      "question": "How do they combine audio and text sequences in their RNN?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1707.03569",
+      "question": "What was the baseline?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1707.03569",
+      "question": "By how much did they improve?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 8
+    },
+    {
+      "paper_id": "1707.03569",
+      "question": "What dataset did they use?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1912.10011",
+      "question": "What future possible improvements are listed?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1912.10011",
+      "question": "Which qualitative metric are used for evaluation?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1912.10011",
+      "question": "What is quantitative improvement of proposed method (the best variant) w.r.t. baseline (the best variant)?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "2003.11563",
+      "question": "How is \"propaganda\" defined for the purposes of this study?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2003.11563",
+      "question": "What metrics are used in evaluation?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "2003.11563",
+      "question": "Which natural language(s) are studied in this paper?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1909.09534",
+      "question": "Do they report results only on English data?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1909.09534",
+      "question": "What objective function is used in the GAN?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1909.09534",
+      "question": "Which datasets are used?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1909.00105",
+      "question": "What metrics are used for evaluation?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1909.00105",
+      "question": "What natural language(s) are the recipes written in?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1909.00105",
+      "question": "What were their results on the new dataset?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "1909.00105",
+      "question": "What are the baseline models?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1909.00105",
+      "question": "How did they obtain the interactions?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1909.00105",
+      "question": "Where do they get the recipes from?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2001.02885",
+      "question": "What were the baselines?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "2001.02885",
+      "question": "Which multiple datasets did they train on during joint training?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "2001.02885",
+      "question": "What were the previously reported results?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1801.10293",
+      "question": "How do they score phrasal compositionality?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 8
+    },
+    {
+      "paper_id": "1801.10293",
+      "question": "Which translation systems do they compare against?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1809.06537",
+      "question": "what are their results on the constructed dataset?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1809.06537",
+      "question": "what evaluation metrics are reported?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1809.06537",
+      "question": "what civil field is the dataset about?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1809.06537",
+      "question": "what are the state-of-the-art models?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1809.06537",
+      "question": "what is the size of the real-world civil case dataset?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1809.06537",
+      "question": "what datasets are used in the experiment?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "2003.03014",
+      "question": "Do they model semantics ",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2003.03014",
+      "question": "How do they identify discussions of LGBTQ people in the New York Times?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "2003.03014",
+      "question": "Do they analyze specific derogatory words?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.08345",
+      "question": "What is novel about their document-level encoder?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1908.08345",
+      "question": "What rouge score do they achieve?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.08345",
+      "question": "What are the datasets used for evaluation?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1611.02988",
+      "question": "What was their performance on emotion detection?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 7
+    },
+    {
+      "paper_id": "1611.02988",
+      "question": "Which existing benchmarks did they compare to?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1611.02988",
+      "question": "Which Facebook pages did they look at?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1604.08504",
+      "question": "LDA is an unsupervised method; is this paper introducing an unsupervised approach to spam detection?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1604.08504",
+      "question": "What is the benchmark dataset and is its quality high?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1604.08504",
+      "question": "How do they detect spammers?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1802.08636",
+      "question": "Do they use other evaluation metrics besides ROUGE?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1802.08636",
+      "question": "What are the baselines?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "2001.07820",
+      "question": "What datasets do they use?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2001.07820",
+      "question": "What other factors affect the performance?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "2001.07820",
+      "question": "What are the benchmark attacking methods?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2002.01320",
+      "question": "What domains are covered in the corpus?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2002.01320",
+      "question": "What is the architecture of their model?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2002.01320",
+      "question": "How was the dataset collected?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "2002.01320",
+      "question": "Which languages are part of the corpus?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2002.01320",
+      "question": "How is the quality of the data empirically evaluated? ",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "2002.01320",
+      "question": "Is Arabic one of the 11 languages in CoVost?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1605.07333",
+      "question": "By how much does their best model outperform the state-of-the-art?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1605.07333",
+      "question": "Which dataset do they train their models on?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1605.07333",
+      "question": "How does their simple voting scheme work?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1605.07333",
+      "question": "Which variant of the recurrent neural network do they use?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1605.07333",
+      "question": "How do they obtain the new context represetation?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "2003.08385",
+      "question": "Did they pefrorm any cross-lingual vs single language evaluation?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 8
+    },
+    {
+      "paper_id": "2003.08385",
+      "question": "What was the performance of multilingual BERT?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "2003.08385",
+      "question": "What annotations are present in dataset?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1901.10133",
+      "question": "What is an unordered text document, do these arise in real-world corpora?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1901.10133",
+      "question": "Do they release a data set?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1911.00841",
+      "question": "Are the experts comparable to real-world users?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1911.00841",
+      "question": "Are the answers double (and not triple) annotated?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1911.00841",
+      "question": "Who were the experts used for annotation?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1911.00841",
+      "question": "What type of neural model was used?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1911.00841",
+      "question": "Were other baselines tested to compare with the neural baseline?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1605.03481",
+      "question": "Does the paper clearly establish that the challenges listed here exist in this dataset and task?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1605.03481",
+      "question": "Is this hashtag prediction task an established task, or something new?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1605.03481",
+      "question": "What is the word-level baseline?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1605.03481",
+      "question": "What other tasks do they test their method on?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "1605.03481",
+      "question": "what is the word level baseline they compare to?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.07245",
+      "question": "Do they incoprorate WordNet into the model?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1908.07245",
+      "question": "Is SemCor3.0 reflective of English language data in general?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.07245",
+      "question": "Do they use large or small BERT?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.07245",
+      "question": "How does the neural network architecture accomodate an unknown amount of senses per word?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "1901.01010",
+      "question": "What kind of model do they use?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1901.01010",
+      "question": "Do the methods that work best on academic papers also work best on Wikipedia?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1901.01010",
+      "question": "Which is more useful, visual or textual features?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1901.01010",
+      "question": "Which languages do they use?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1901.01010",
+      "question": "How large is their data set?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1901.01010",
+      "question": "Where do they get their ground truth quality judgments?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 7
+    },
+    {
+      "paper_id": "1809.02279",
+      "question": "Which models did they experiment with?",
+      "gold_evidence_count": 8,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1809.02279",
+      "question": "What were their best results on the benchmark datasets?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1809.02279",
+      "question": "What were the baselines?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1809.02279",
+      "question": "Which datasets were used?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2002.01207",
+      "question": "what datasets were used?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 7
+    },
+    {
+      "paper_id": "2002.01207",
+      "question": "what are the previous state of the art?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "2002.01207",
+      "question": "what surface-level features are used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "2002.01207",
+      "question": "what linguistics features are used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "1803.05223",
+      "question": "what dataset statistics are provided?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1803.05223",
+      "question": "what is the size of their dataset?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1803.05223",
+      "question": "what crowdsourcing platform was used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1803.05223",
+      "question": "how was the data collected?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1909.06162",
+      "question": "What extracted features were most influencial on performance?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1909.06162",
+      "question": "Did ensemble schemes help in boosting peformance, by how much?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1909.06162",
+      "question": "What is specific to multi-granularity and multi-tasking neural arhiteture design?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1905.10851",
+      "question": "What aspects of discussion are relevant to instructor intervention, according to the attention mechanism?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1905.10851",
+      "question": "What was the previous state of the art for this task?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "1905.10851",
+      "question": "What type of latent context is used to predict instructor intervention?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1906.07701",
+      "question": "Do they report results only on English dataset?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1906.07701",
+      "question": "What dataset does this approach achieve state of the art results on?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2002.07306",
+      "question": "How much training data from the non-English language is used by the system?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "2002.07306",
+      "question": "Is the system tested on low-resource languages?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2002.07306",
+      "question": "What languages are the model transferred to?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "2002.07306",
+      "question": "How is the model transferred to other languages?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2002.07306",
+      "question": "What metrics are used for evaluation?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "2002.07306",
+      "question": "What datasets are used for evaluation?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1810.12091",
+      "question": "what are the existing approaches?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 7
+    },
+    {
+      "paper_id": "1810.12091",
+      "question": "what dataset is used in this paper?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1810.05241",
+      "question": "How is keyphrase diversity measured?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 10
+    },
+    {
+      "paper_id": "1810.05241",
+      "question": "How was the StackExchange dataset collected?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1810.05241",
+      "question": "What were the baselines?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1810.05241",
+      "question": "What two metrics are proposed?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1805.01445",
+      "question": "Can the findings of this paper be generalized to a general-purpose task?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1805.01445",
+      "question": "Why does the proposed task a good proxy for the general-purpose sequence to sequence tasks?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1706.01875",
+      "question": "What was the baseline?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1706.01875",
+      "question": "What was their system's performance?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1706.01875",
+      "question": "What other political events are included in the database?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 9
+    },
+    {
+      "paper_id": "1706.01875",
+      "question": "What classifier did they use?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1909.01362",
+      "question": "What labels for antisocial events are available in datasets?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1909.01362",
+      "question": "What are two datasets model is applied to?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2004.01862",
+      "question": "What is the CORD-19 dataset?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "2004.01862",
+      "question": "How large is the collection of COVID-19 literature?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1908.01294",
+      "question": "Which deep learning architecture do they use for sentence segmentation?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1908.01294",
+      "question": "How do they utilize unlabeled data to improve model representations?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1906.01040",
+      "question": "What is the McGurk effect?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1909.01383",
+      "question": "what was the baseline?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1909.01383",
+      "question": "what phenomena do they mention is hard to capture?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1909.01383",
+      "question": "by how much did the BLEU score improve?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1705.05437",
+      "question": "What is NER?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1705.05437",
+      "question": "Does the paper explore extraction from electronic health records?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "2003.02249",
+      "question": "Does jiant involve datasets for the 50 NLU tasks?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "2003.02249",
+      "question": "Is jiant compatible with models in any programming language?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1910.03634",
+      "question": "What models are used for painting embedding and what for language style transfer?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1910.03634",
+      "question": "What limitations do the authors demnostrate of their model?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1910.03634",
+      "question": "How does final model rate on Likert scale?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1910.03634",
+      "question": "What is best BLEU score of language style transfer authors got?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2001.08868",
+      "question": "How better does new approach behave than existing solutions?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": 10
+    },
+    {
+      "paper_id": "2001.08868",
+      "question": "How is trajectory with how rewards extracted?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 10
+    },
+    {
+      "paper_id": "2001.08868",
+      "question": "On what Text-Based Games are experiments performed?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "2001.08868",
+      "question": "How do the authors show that their learned policy generalize better than existing solutions to unseen games?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1910.12795",
+      "question": "How much is classification performance improved in experiments for low data regime and class-imbalance problems?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1910.12795",
+      "question": "What off-the-shelf reward learning algorithm from RL for joint data manipulation learning and model training is adapted?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1805.10824",
+      "question": "What subtasks did they participate in?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1805.10824",
+      "question": "What were the scores of their system?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1805.10824",
+      "question": "How was the training data translated?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1805.10824",
+      "question": "What dataset did they use?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1805.10824",
+      "question": "What other languages did they translate the data from?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1805.10824",
+      "question": "What semi-supervised learning is applied?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2003.04866",
+      "question": "How were the datasets annotated?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "2003.04866",
+      "question": "What are the 12 languages covered?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1704.04452",
+      "question": "Does the corpus contain only English documents?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 7
+    },
+    {
+      "paper_id": "1704.04452",
+      "question": "What type of evaluation is proposed for this task?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 8
+    },
+    {
+      "paper_id": "1704.04452",
+      "question": "What baseline system is proposed?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1704.04452",
+      "question": "How were crowd workers instructed to identify important elements in large document collections?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1704.04452",
+      "question": "Which collections of web documents are included in the corpus?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1704.04452",
+      "question": "How do the authors define a concept map?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "2003.11562",
+      "question": "Is the LSTM baseline a sub-word model?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "2003.11562",
+      "question": "How is pseudo-perplexity defined?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1608.08188",
+      "question": "What is the model architecture used?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1906.06849",
+      "question": "what quantitative analysis is done?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1906.06849",
+      "question": "what are the baselines?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1901.08079",
+      "question": "What machine learning and deep learning methods are used for RQE?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "1805.06966",
+      "question": "by how much did nus outperform abus?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1805.06966",
+      "question": "what corpus is used to learn behavior?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1806.03125",
+      "question": "Which dataset has been used in this work?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1806.03125",
+      "question": "What can word subspace represent?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1910.14076",
+      "question": "How big are improvements of small-scale unbalanced datasets when sentence representation is enhanced with topic information?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "1910.14076",
+      "question": "To what baseline models is proposed model compared?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1910.14076",
+      "question": "How big is dataset for testing?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1910.14076",
+      "question": "What existing dataset is re-examined and corrected for training?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1911.06118",
+      "question": "What are the qualitative experiments performed on benchmark datasets?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1911.06118",
+      "question": "How does this approach compare to other WSD approaches employing word embeddings?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1908.08717",
+      "question": "What tasks did they use to evaluate performance for male and female speakers?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1908.08717",
+      "question": "What is the goal of investigating NLP gender bias specifically in the news broadcast domain and Anchor role?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1908.08717",
+      "question": "Which corpora does this paper analyse?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1908.08717",
+      "question": "How many categories do authors define for speaker role?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.08717",
+      "question": "How big is imbalance in analyzed corpora?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1908.08717",
+      "question": "What are four major corpora of French broadcast?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1907.03187",
+      "question": "What were their results on the classification and regression tasks",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1608.01884",
+      "question": "Do the authors conduct experiments on the tasks mentioned?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1608.01884",
+      "question": "Did they collect their own datasets?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1608.01884",
+      "question": "What data do they look at?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1608.01884",
+      "question": "What language do they explore?",
+      "gold_evidence_count": 6,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1705.01265",
+      "question": "Do they report results only on English datasets?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1705.01265",
+      "question": "Which hyperparameters were varied in the experiments on the four tasks?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1705.01265",
+      "question": "Which other hyperparameters, other than number of clusters are typically evaluated in this type of research?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1705.01265",
+      "question": "How were the cluster extracted? ",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1906.10225",
+      "question": "what were the evaluation metrics?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "1906.10225",
+      "question": "what english datasets were used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1906.10225",
+      "question": "which chinese datasets were used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1712.05999",
+      "question": "What were their distribution results?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1712.05999",
+      "question": "How did they determine fake news tweets?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1712.05999",
+      "question": "What is their definition of tweets going viral?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1712.05999",
+      "question": "What are the characteristics of the accounts that spread fake news?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1712.05999",
+      "question": "What is the threshold for determining that a tweet has gone viral?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1712.05999",
+      "question": "How is the ground truth for fake news established?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2001.05865",
+      "question": "Which three discriminative models did they use?",
+      "gold_evidence_count": 8,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1808.03738",
+      "question": "what NMT models did they compare with?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1808.03738",
+      "question": "Where does the ancient Chinese dataset come from?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1910.08293",
+      "question": "How many different characters were in dataset?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1910.08293",
+      "question": "How does dataset model character's profiles?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 8
+    },
+    {
+      "paper_id": "1910.08293",
+      "question": "How big is the difference in performance between proposed model and baselines?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 7
+    },
+    {
+      "paper_id": "1910.08293",
+      "question": "What baseline models are used?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1909.01296",
+      "question": "Was PolyReponse evaluated against some baseline?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1909.01296",
+      "question": "How does PolyResponse architecture look like?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1909.01296",
+      "question": "In what 8 languages is PolyResponse engine used for restourant search and booking system?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1902.09243",
+      "question": "Why masking words in the decoder is helpful?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1902.09243",
+      "question": "What is the ROUGE score of the highest performing model?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1902.09243",
+      "question": "How are the different components of the model trained? Is it trained end-to-end?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1801.02073",
+      "question": "Do they employ their indexing-based method to create a sample of a QA Wikipedia dataset?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "1801.02073",
+      "question": "How many question types do they find in the datasets analyzed?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1801.02073",
+      "question": "How do they analyze contextual similaries across datasets?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "1801.06482",
+      "question": "What were their performance results?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 6
+    },
+    {
+      "paper_id": "1801.06482",
+      "question": "What cyberbulling topics did they address?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1909.05359",
+      "question": "Were any of the pipeline components based on deep learning models?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 7
+    },
+    {
+      "paper_id": "1909.05359",
+      "question": "How is the effectiveness of this pipeline approach evaluated?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 10
+    },
+    {
+      "paper_id": "1603.08594",
+      "question": "What is the size of the parallel corpus used to train the model constraints?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1603.08594",
+      "question": "How does enforcing agreement between parse trees work across different languages?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1703.07476",
+      "question": "What datasets are used to assess the performance of the system?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1703.07476",
+      "question": "How is the vocabulary of word-like or phoneme-like units automatically discovered?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1906.00346",
+      "question": "IS the graph representation supervised?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1906.00346",
+      "question": "Is the G-BERT model useful beyond the task considered?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1909.08970",
+      "question": "How well did the baseline perform?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1909.08970",
+      "question": "What is the baseline?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1805.07133",
+      "question": "what methods were used to reduce data sparsity effects?",
+      "gold_evidence_count": 5,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1805.07133",
+      "question": "what was the baseline?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1805.07133",
+      "question": "did they collect their own data?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1805.07133",
+      "question": "what japanese-vietnamese dataset do they use?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1903.11283",
+      "question": "Do they introduce errors in the data or does the data already contain them?",
+      "gold_evidence_count": 7,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1903.11283",
+      "question": "What error types is their model more reliable for?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1709.05036",
+      "question": "Do they experiment with their proposed model on any other dataset other than MovieQA?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1706.00139",
+      "question": "What is the difference of the proposed model with a standard RNN encoder-decoder?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1706.00139",
+      "question": "Does the model evaluated on NLG datasets or dialog datasets?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1705.04153",
+      "question": "What tasks do they experiment with?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1912.01852",
+      "question": "How is the quality of singing voice measured?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1808.09029",
+      "question": "what data did they use?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1808.09029",
+      "question": "what previous RNN models do they compare with?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "2004.04721",
+      "question": "What are examples of these artificats?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2004.04721",
+      "question": "What are the languages they use in their experiment?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "2004.04721",
+      "question": "Does the professional translation or the machine translation introduce the artifacts?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "2004.04721",
+      "question": "Do they recommend translating the premise and hypothesis together?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "2004.04721",
+      "question": "Is the improvement over state-of-the-art statistically significant?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "2004.04721",
+      "question": "What are examples of these artifacts?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2004.04721",
+      "question": "What languages do they use in their experiments?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1905.07791",
+      "question": "How much higher quality is the resulting annotated data?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1905.07791",
+      "question": "How do they match annotators to instances?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 8
+    },
+    {
+      "paper_id": "1905.07791",
+      "question": "How much data is needed to train the task-specific encoder?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1905.07791",
+      "question": "Is an instance a sentence or an IE tuple?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "2002.04181",
+      "question": "Who are the crowdworkers?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "2002.04181",
+      "question": "Which toolkits do they use?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "2002.04181",
+      "question": "Which sentiment class is the most accurately predicted by ELS systems?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "2002.04181",
+      "question": "Is datasets for sentiment analysis balanced?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "2002.04181",
+      "question": "What measures are used for evaluation?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1908.06264",
+      "question": "what were the baselines?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.06264",
+      "question": "what datasets were used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 4
+    },
+    {
+      "paper_id": "1908.06264",
+      "question": "What are the sources of the datasets?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1908.06264",
+      "question": "What labels does the dataset have?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1709.10367",
+      "question": "Do they evaluate on English only datasets?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1709.10367",
+      "question": "What experiments are used to demonstrate the benefits of this approach?",
+      "gold_evidence_count": 9,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1709.10367",
+      "question": "What hierarchical modelling approach is used?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1709.10367",
+      "question": "Which words are used differently across ArXiv?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1909.03582",
+      "question": "What is future work planed?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1909.03582",
+      "question": "What is this method improvement over the best performing state-of-the-art?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1909.03582",
+      "question": "Which baselines are used for evaluation?",
+      "gold_evidence_count": 7,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1909.03582",
+      "question": "Did they used dataset from another domain for evaluation?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1909.03582",
+      "question": "How is sensationalism scorer trained?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1908.06267",
+      "question": "Which component is the least impactful?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.06267",
+      "question": "Which component has the greatest impact on performance?",
+      "gold_evidence_count": 4,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.06267",
+      "question": "What is the state-of-the-art system?",
+      "gold_evidence_count": 15,
+      "first_correct_rank": 2
+    },
+    {
+      "paper_id": "1908.06267",
+      "question": "Which datasets are used?",
+      "gold_evidence_count": 11,
+      "first_correct_rank": 1
+    },
+    {
+      "paper_id": "1908.06267",
+      "question": "What is the message passing framework?",
+      "gold_evidence_count": 3,
+      "first_correct_rank": 5
+    },
+    {
+      "paper_id": "1701.05574",
+      "question": "What other evaluation metrics are looked at?",
+      "gold_evidence_count": 1,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1701.05574",
+      "question": "What is the best reported system?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": null
+    },
+    {
+      "paper_id": "1907.01468",
+      "question": "What approaches do they use towards text analysis?",
+      "gold_evidence_count": 12,
+      "first_correct_rank": 3
+    },
+    {
+      "paper_id": "1907.01468",
+      "question": "What kind of issues (that are not on the forefront of computational text analysis) do they tackle?",
+      "gold_evidence_count": 2,
+      "first_correct_rank": 7
+    }
+  ]
+}

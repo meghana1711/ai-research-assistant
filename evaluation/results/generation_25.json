@@ -1,0 +1,258 @@
+{
+  "model": "qwen3:4b",
+  "retrieval": "hybrid_plus_reranker",
+  "questions": 25,
+  "answer_f1": 0.3505540446481622,
+  "results": [
+    {
+      "paper_id": "1912.01214",
+      "question": "which multilingual approaches do they compare with?",
+      "prediction": "multilingual NMT (MNMT) [1]",
+      "references": [
+        "BIBREF19 BIBREF20",
+        "multilingual NMT (MNMT) BIBREF19"
+      ],
+      "f1": 0.8571428571428571
+    },
+    {
+      "paper_id": "1912.01214",
+      "question": "what are the pivot-based baselines?",
+      "prediction": "pivoting, pivot-synthetic [2]",
+      "references": [
+        "pivoting pivoting$_{\\rm m}$",
+        "firstly translates a source language into the pivot language which is later translated to the target language"
+      ],
+      "f1": 0.4
+    },
+    {
+      "paper_id": "1912.01214",
+      "question": "which datasets did they experiment with?",
+      "prediction": "Europarl, MultiUN [1][2]",
+      "references": [
+        "Europarl MultiUN",
+        "Europarl BIBREF31 MultiUN BIBREF32"
+      ],
+      "f1": 1.0
+    },
+    {
+      "paper_id": "1912.01214",
+      "question": "what language pairs are explored?",
+      "prediction": "Fr\u2192Es, De\u2192Fr, Ro\u2192De, Ar\u2192Es, Ar\u2192Ru, Es\u2192Ar, Es\u2192Ru, Ru\u2192Ar, Ru\u2192Es",
+      "references": [
+        "De-En, En-Fr, Fr-En, En-Es, Ro-En, En-De, Ar-En, En-Ru",
+        "French-English-Spanish (Fr-En-Es), German-English-French (De-En-Fr) and Romanian-English-German (Ro-En-De) Arabic (Ar), Spanish (Es), and Russian (Ru), and mutual translation between themselves constitutes six zero-shot translation"
+      ],
+      "f1": 0.0
+    },
+    {
+      "paper_id": "1810.08699",
+      "question": "what ner models were evaluated?",
+      "prediction": "Stanford NER, spaCy 2.0, recurrent model [1]",
+      "references": [
+        "Stanford NER spaCy 2.0  recurrent model with a CRF top layer",
+        "Stanford NER spaCy 2.0 recurrent model with a CRF top layer"
+      ],
+      "f1": 0.7499999999999999
+    },
+    {
+      "paper_id": "1810.08699",
+      "question": "what is the source of the news sentences?",
+      "prediction": "ilur.am [1]",
+      "references": [
+        "ilur.am",
+        "links between Wikipedia articles to generate sequences of named-entity annotated tokens"
+      ],
+      "f1": 1.0
+    },
+    {
+      "paper_id": "1810.08699",
+      "question": "did they use a crowdsourcing platform for manual annotations?",
+      "prediction": "Unanswerable",
+      "references": [
+        "No",
+        "No"
+      ],
+      "f1": 0.0
+    },
+    {
+      "paper_id": "1609.00425",
+      "question": "what are the topics pulled from Reddit?",
+      "prediction": "politics, business, science, AskReddit [2]",
+      "references": [
+        "politics, business, science, and AskReddit, and 1000 additional posts from the Reddit frontpage. ",
+        "training data has posts from politics, business, science and other popular topics; the trained model is applied to millions of unannotated posts on all of Reddit"
+      ],
+      "f1": 0.5
+    },
+    {
+      "paper_id": "1609.00425",
+      "question": "What predictive model do they build?",
+      "prediction": "linear regression model [5]",
+      "references": [
+        "logistic regression models",
+        "logistic regression models based on unigram bag-of-words features (BOW), sentiment signals (SENT), the linguistic features from our earlier analyses (LING), and combinations of these features."
+      ],
+      "f1": 0.3333333333333333
+    },
+    {
+      "paper_id": "1801.05147",
+      "question": "What accuracy does the proposed system achieve?",
+      "prediction": "Unanswerable",
+      "references": [
+        "F1 scores of 85.99 on the DL-PS data,  75.15 on the EC-MT data and 71.53 on the EC-UQ data ",
+        "F1 of 85.99 on the DL-PS dataset (dialog domain); 75.15 on EC-MT and 71.53 on EC-UQ (e-commerce domain)"
+      ],
+      "f1": 0.0
+    },
+    {
+      "paper_id": "1801.05147",
+      "question": "What crowdsourcing platform is used?",
+      "prediction": "Unanswerable",
+      "references": [
+        "Unanswerable",
+        "They did not use any platform, instead they hired undergraduate students to do the annotation."
+      ],
+      "f1": 1.0
+    },
+    {
+      "paper_id": "1811.00383",
+      "question": "How do they match words before reordering them?",
+      "prediction": "bilingual dictionary [4]",
+      "references": [
+        "Unanswerable",
+        "CFILT-preorder system"
+      ],
+      "f1": 0.0
+    },
+    {
+      "paper_id": "1811.00383",
+      "question": "On how many language pairs do they show that preordering assisting language sentences helps translation quality?",
+      "prediction": "Unanswerable",
+      "references": [
+        "5",
+        "Bengali, Gujarati, Marathi, Malayalam and Tamil are the primary source languages, and translation from these to Hindi constitute the child tasks."
+      ],
+      "f1": 0.0
+    },
+    {
+      "paper_id": "1811.00383",
+      "question": "Which dataset(s) do they experiment with?",
+      "prediction": "IITB and ILCI",
+      "references": [
+        "IITB English-Hindi parallel corpus BIBREF22 ILCI English-Hindi parallel corpus",
+        "IITB English-Hindi parallel corpus ILCI English-Hindi parallel corpus"
+      ],
+      "f1": 0.36363636363636365
+    },
+    {
+      "paper_id": "1909.09067",
+      "question": "Which information about text structure is included in the corpus?",
+      "prediction": "paragraphs and lines [4]",
+      "references": [
+        "paragraphs lines Information on physical page segmentation (for PDFs only), paragraph segmentation, and line segmentation",
+        "paragraph, lines, textspan element (paragraph segmentation, line segmentation, Information on physical page segmentation(for PDF only))"
+      ],
+      "f1": 0.33333333333333337
+    },
+    {
+      "paper_id": "1909.09067",
+      "question": "Which information about typography is included in the corpus?",
+      "prediction": "boldface, italics [5]",
+      "references": [
+        "font type font style Information on the font type and font style (e.g., italics, bold print) of a token and its position on the physical page",
+        "font type and font style (e.g., italics, bold print) of a token and its position on the physical page (for PDFs only) was specified as attributes to the token elements of the tokens layer A separate fonts layer was introduced to preserve detailed information on the font configurations referenced in the tokens layer"
+      ],
+      "f1": 0.08
+    },
+    {
+      "paper_id": "1704.06194",
+      "question": "On which benchmarks they achieve the state of the art?",
+      "prediction": "WebQSP and SimpleQuestions [3]",
+      "references": [
+        "SimpleQuestions WebQSP",
+        "WebQSP SimpleQuestions"
+      ],
+      "f1": 0.8
+    },
+    {
+      "paper_id": "1704.06194",
+      "question": "What they use in their propsoed framework?",
+      "prediction": "HR-BiLSTM [4]",
+      "references": [
+        "break the relation names into word sequences  relation-level and word-level relation representations bidirectional LSTMs (BiLSTMs)  residual learning method",
+        "break the relation names into word sequences for question-relation matching build both relation-level and word-level relation representations use deep bidirectional LSTMs (BiLSTMs) to learn different levels of question representations residual learning method for sequence matching a simple KBQA implementation composed of two-step relation detection"
+      ],
+      "f1": 0.0
+    },
+    {
+      "paper_id": "1704.06194",
+      "question": "What does KBQA abbreviate for",
+      "prediction": "Knowledge Base Question Answering [1]",
+      "references": [
+        "Knowledge Base Question Answering",
+        "Knowledge Base Question Answering "
+      ],
+      "f1": 1.0
+    },
+    {
+      "paper_id": "1704.06194",
+      "question": "What is te core component for KBQA?",
+      "prediction": "relation detection [4]",
+      "references": [
+        "answer questions by obtaining information from KB tuples ",
+        "hierarchical matching between questions and relations with residual learning"
+      ],
+      "f1": 0.0
+    },
+    {
+      "paper_id": "1909.00512",
+      "question": "What experiments are proposed to test that upper layers produce context-specific embeddings?",
+      "prediction": "Self-similarity across layers",
+      "references": [
+        "They measure self-similarity, intra-sentence similarity and maximum explainable variance of the embeddings in the upper layers.",
+        "They plot the average cosine similarity between uniformly random words increases exponentially from layers 8 through 12.  \nThey plot the average self-similarity of uniformly randomly sampled words in each layer of BERT, ELMo, and GPT-2 and shown that the higher layer produces more context-specific embeddings.\nThey plot that word representations in a sentence become more context-specific in upper layers, they drift away from one another."
+      ],
+      "f1": 0.23529411764705882
+    },
+    {
+      "paper_id": "1909.00512",
+      "question": "How do they calculate a static embedding for each word?",
+      "prediction": "Skip-gram with negative sampling (SGNS) and GloVe [1]",
+      "references": [
+        "They use the first principal component of a word's contextualized representation in a given layer as its static embedding.",
+        " by taking the first principal component (PC) of its contextualized representations in a given layer"
+      ],
+      "f1": 0.0
+    },
+    {
+      "paper_id": "2003.03106",
+      "question": "What is the performance of BERT on the task?",
+      "prediction": "7 points F1-score loss",
+      "references": [
+        "F1 scores are:\nHUBES-PHI: Detection(0.965), Classification relaxed (0.95), Classification strict (0.937)\nMedoccan: Detection(0.972), Classification (0.967)",
+        "BERT remains only 0.3 F1-score points behind, and would have achieved the second position among all the MEDDOCAN shared task competitors. Taking into account that only 3% of the gold labels remain incorrectly annotated  Table "
+      ],
+      "f1": 0.1111111111111111
+    },
+    {
+      "paper_id": "2003.03106",
+      "question": "What are the other algorithms tested?",
+      "prediction": "Unanswerable",
+      "references": [
+        "NER model CRF classifier trained with sklearn-crfsuite classifier has been developed that consists of regular-expressions and dictionary look-up",
+        "As the simplest baseline, a sensitive data recogniser and classifier Conditional Random Fields (CRF) spaCy "
+      ],
+      "f1": 0.0
+    },
+    {
+      "paper_id": "2003.03106",
+      "question": "Does BERT reach the best performance among all the algorithms compared?",
+      "prediction": "Yes [3]",
+      "references": [
+        "No",
+        "No"
+      ],
+      "f1": 0.0
+    }
+  ]
+}

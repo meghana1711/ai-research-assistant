@@ -4,7 +4,21 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "datasets>=5.1.0",
+    "docling>=2.140.0",
+    "fastembed>=0.9.1",
+    "langchain-core>=1.6.12",
+    "langchain-docling[local]>=3.0.0",
+    "langchain-google-genai>=4.4.2",
+    "langchain-huggingface>=1.2.3",
+    "langchain-ollama>=1.1.0",
+    "langchain-openai>=1.7.2",
+    "langchain-qdrant>=1.1.0",
+    "requests>=2.34.2",
+    "sentence-transformers>=6.1.0",
+]
 
 [project.scripts]
 ai-research-assistant = "ai_research_assistant:main"
