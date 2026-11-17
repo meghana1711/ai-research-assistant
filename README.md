@@ -35,6 +35,7 @@ Retrieval is measured using:
 - Hit@K
 - Recall@K
 - MRR@10
+
 Generated answers are evaluated against QASPER human reference answers using **Answer F1**.
 
 ## Installation
