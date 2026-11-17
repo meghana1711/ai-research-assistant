@@ -27,7 +27,11 @@ Qwen3 4B
       ↓
 Answer + Sources
 
-For uploaded PDFs, Docling is used for document processing. QASPER provides already-structured research-paper text and is used separately for benchmarking.
+For uploaded PDFs, Docling handles parsing and document structure before chunking and indexing.
+
+For benchmarking, QASPER is processed separately because it already provides structured research-paper text. QASPER is used to evaluate retrieval and answer-generation performance against human-annotated evidence and reference answers.
+
+A dense-only retriever is retained as the baseline and compared against the final hybrid retrieval + reranking pipeline.
 
 ## Evaluation
 The project compares a dense-retrieval baseline with hybrid retrieval and cross-encoder reranking.
